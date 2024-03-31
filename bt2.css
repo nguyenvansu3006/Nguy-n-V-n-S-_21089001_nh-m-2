@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif; /* Thay đổi font chữ */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Đổi màu chữ */
+}
+
+#top-color-splash { 
+    width: 100%; 
+    height: 4px; 
+    background: #EB6361; /* Giữ nguyên màu splash */
+}
+
+#contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact h1 {
+    text-align: left;
+    font-size: 24px;
+    color: #333; /* Đổi màu chữ */
+    margin-bottom: 10px; /* Thêm khoảng cách dưới */
+}
+
+#contact h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #0B0B0D; /* Đổi màu chữ */
+    font-weight: normal; /* Đổi font-weight */
+    margin-bottom: 10px; /* Thêm khoảng cách dưới */
+}
+
+#contact p {
+    text-align: left;
+    font-size: 15px;
+    color: #828284; /* Đổi màu chữ */
+    margin-bottom: 10px; /* Thêm khoảng cách dưới */
+}
+
+.contact-content {
+    display: flex;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.fa {
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: calc(100% - 12px);
+    padding: 8px; /* Tăng padding cho đồng đều */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px; /* Tăng padding */
+    border: none;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #333;
+}
+
+.error {
+    border-color: red;
+}

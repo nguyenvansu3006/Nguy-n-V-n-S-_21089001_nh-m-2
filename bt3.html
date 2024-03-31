@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Review Form</title>
+    <link rel="stylesheet" href="bt3.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+        <h2> Đánh Giá </h2> </center>
+        <form id="reviewForm">
+            <label for="name"> Họ và tên </label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="date"> Ngày dánh giá </label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="comment"> Phản hồi </label><br>
+            <textarea id="comment" name="comment" rows="4" required></textarea><br>
+            <button type="submit"> Gửi đánh giá </button>
+        </form>
+        <div id="reviewDisplay"></div>
+    </div>
+
+    <script src="bt3.js"></script>
+</body>
+</html>

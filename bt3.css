@@ -1,0 +1,45 @@
+
+body{
+    background-color: #b7ddd9;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #eee; /* Thay đổi màu viền */
+    border-radius: 5px;
+    background-color: #ecf1f3; /* Thay đổi màu nền */
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Tăng khoảng cách giữa các label */
+    color: #555; /* Thay đổi màu chữ */
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Tăng khoảng cách giữa các trường nhập liệu */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px; /* Tăng kích thước chữ */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Tăng kích thước nút */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Tăng kích thước chữ */
+}
+
+button:hover {
+    background-color: #45a049;
+}
